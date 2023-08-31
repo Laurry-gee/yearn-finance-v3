@@ -1,104 +1,13 @@
-# yearn.finance
+# RSS Builder by B!Soft MarkBook RSS Feed
 
-<img src="https://img.shields.io/badge/dynamic/json.svg?style=plastic&color=2096F3&label=locize&query=%24.translatedPercentage&url=https://api.locize.app/badgedata/1c6d6900-5989-49fe-b221-0001423041d2&suffix=%+translated&link=https://www.locize.com" />
-
-> **Note**
-> This version of the frontend has been deprecated in favor of https://github.com/yearn/yearn.fi but can still be accessed [here](https://v3.yearn.finance)
-
-## Contributing
-
-Code style follows prettier conventions (`yarn prettier`). Commit messages follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) spec.
-
-### Initial Setup
-
-- Fork the [original repo](https://github.com/yearn/yearn-finance-v3/) into your GitHub account
-- Clone the forked repo from your GitHub account to your local machine
-
-  ```
-  git clone https://github.com/<your-gh>/yearn-finance-v3.git
-  ```
-
-- Set origin to your fork. This is where you push your changes to. This is done automatically by the step above.
-
-  ```
-  git remote add origin https://github.com/<your-gh>/yearn-finance-v3
-  ```
-
-- Set upstream to original repo.
-
-  ```
-  git remote add upstream https://github.com/yearn/yearn-finance-v3.git
-  ```
-
-- Create `.env` file in root directory of repo then copy contents of `.env.example` to `.env`
-  ```
-  cp .env.example .env
-  ```
-  - `REACT_APP_INFURA_PROJECT_ID` should remain blank because we are currently using Alchemy as our provider
-  - `REACT_APP_ALCHEMY_API_KEY` alchemy api key should be provided by the contributor if he hits api limits
-
-### Making Changes
-
-- Create a new local branch from upstream/develop for each PR that you will submit
-  ```
-  git fetch
-  git checkout -b <your branch name> upstream/develop
-  ```
-- Commit your changes as you work
-  ```
-  git add .
-  git commit -S -m "message"
-  ```
-  - [info about verified commits](https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification)
-
-### Pushing Changes to your Repo
-
-- Commits are squashed when PR is merged so rebasing is optional
-- When ready to push
-  ```
-  git fetch
-  git merge upstream/develop
-  git push origin <branch-name>
-  ```
-
-### Submitting Pull Request
-
-- Go to your GitHub and navigate to your forked repo
-- Click on `Pull requests` and then click on `New pull request`
-- Click on `compare across forks`
-- Click on `compare:` and select branch that you want to create a pull request for then click on `create pull request`
-
-## Development
-
-```
-yarn dev
-```
-
-or for Windows:
-
-```
-yarn dev-win
-```
-
-- To enable Dev Mode set `REACT_APP_ALLOW_DEV_MODE=true` in your `.env`
-- Wallet Address Override can be activated by navigating to Settings in the app and clicking `Enable Dev Mode`
-
-## Production
-
-```
-yarn build
-yarn start
-```
-
-## Translations
-
-We use i18n react with locize cli to update/download translations.
-
-Refer to main repo for documentation:
-https://github.com/locize/locize-cli
-
-Sync with: `yarn syncDevLocales` **must provide api key**
-
-Check sync changes with: `yarn checkDevLocales`
-
-Download prod locales with: `yarn downloadProdLocales`
+https://www.markbook.com MarkBook RSS Feed. Keep up to date on the latest news. en-us mrichardson@acadiemgroup.com The Acadiem Group 2020 NEW MarkBook HTML5 is Here! 10 Oct 2020 10:00:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News Our ALL NEW MarkBook HTML5 Web Application is Here! Flash or Flex is no longer required. Many added features in a clean new look. Now you can use MarkBook on your Chromebook, Android or iPadOS tablet as well as Windows, macOS or Linux devices. (Select tablets only) A new version of the app, 1.1.0 22 Dec 2020 16:30:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.1.0, has been launched. It contains a major security update. Please see the Release Notes for the details. A new version of the app, 1.2.0 26 Jan 2021 17:30:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.2.0, has been launched. You can now Copy Comments to many students at once and easily input entries on tablets using Numeric Keypad. Please see the Release Notes for the details. A new version of the app, 1.3.0 25 Mar 2021 17:30:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.3.0, has been launched. Please see the Release Notes for the details. A new version of the app, 1.4.0 30 Apr 2021 08:00:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.4.0, has been launched. Please see the Release Notes for the details. For TDSB users 6 Aug 2021 08:00:00 -0400 http://tdsb.on.ca/ mrichardson@acadiemgroup.com News TDSB users: In preparation for Single Sign On service in September, all usernames now use your Toronto District School Board email address. TDSB-logo.png Attention TDSB Users 18 Sep 2021 01:00:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News On Saturday September 18th, Single Sign On (SSO) will be implemented for TDSB MarkBook (Cloud) users. After the implementation is completed, teachers will be required to sign onto MarkBook using their TDSB e- mail address and password. Teachers that are already signing onto MarkBook with their TDSB email address will have their existing class data maintained. Teachers that are currently using personal email accounts will need to contact 
+support@markbookapp.com to request existing class data transfers, if required. TDSB-logo.png For TVDSB Users 09 Sep 2022 01:00:00 -0400 
+https://www.markbook.com News On Tuesday, September 6th, Single Sign On (SSO) was implemented for TVDSB MarkBook (Cloud) users. Teachers are now required to sign onto MarkBook using their TVDSB e-mail address and password in the Microsoft 365 Apps environment. Please follow the Information Guidesheet for "Transfer from Individual to Corporate Domain using SSO in MarkBook®”. Teachers that are already signing onto MarkBook with their TVDSB email address will have their existing class data maintained. Teachers that are currently using personal email accounts will need to contact 
+support@markbookapp.com to request existing class data transfers, if required. TVDSB-logo.webp WECDSB 31 Oct 2022 01:00:00 -0400 
+https://www.markbook.com News WECDSB users, please ensure that you have updated ALL of your courses with the most recent Aspen extract that has your first initial and last name in the file name (i.e. see below). Furthermore, please ensure you have submitted a copy (screenshots) of your updated courses to your school-issued Google form. WECDSB-logo.png
