@@ -102,7 +102,7 @@
   },
   "devDependencies": {
     "babel-plugin-styled-components": "2.0.7",
-    "locize-cli": "7.10.1"
+    "locize-cli": "7.14.5"
   },
   "eslintConfig": {
     "extends": [
