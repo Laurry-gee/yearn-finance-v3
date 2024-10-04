@@ -9,7 +9,7 @@ COPY . .
 RUN yarn build
 
 # STAGE 2 - production image
-FROM nginx:1.22-alpine as prod-stage
+FROM nginx:1.27.2-alpine as prod-stage
 WORKDIR /usr/share/nginx/html
 RUN rm -rf ./*
 COPY --from=builder-stage /usr/src/app/build ./
